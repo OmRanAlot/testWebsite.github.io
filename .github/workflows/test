@@ -25,6 +25,9 @@ jobs:
 
     - name: Your Deployment Step
       run: |
+        export API_KEY=$TEST_API_KEY  
+        node deploy-script.js
+          
         # Use $API_KEY in your deployment process
         # For example, if you're using Node.js:
         # export API_KEY=$API_KEY
