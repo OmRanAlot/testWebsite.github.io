@@ -21,7 +21,7 @@ jobs:
 
     - name: Retrieve Secret and Set as Environment Variable
       run: |
-        echo "API_KEY=${{ secrets.API_KEY }}" >> $GITHUB_ENV
+        echo "API_KEY=${{ secrets.TEST_API_KEY }}" >> $GITHUB_ENV
 
     - name: Your Deployment Step
       run: |
