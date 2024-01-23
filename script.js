@@ -1,6 +1,6 @@
 console.log("working"); 
 
-const apiKey = process.env.API_KEY;
+const apiKey = "${{ secrets.TEST_API_KEY }}";
 console.log("working");
 
 let button = document.getElementById("testButton");
