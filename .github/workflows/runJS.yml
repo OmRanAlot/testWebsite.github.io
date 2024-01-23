@@ -27,5 +27,5 @@ jobs:
         run: npm install
 
       - name: Export API KEY
-        run: export API_KEY =$API_KEY
+        run: export API_KEY=$TEST_API_KEY
              node deploy-script.js
