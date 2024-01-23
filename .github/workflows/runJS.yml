@@ -28,4 +28,3 @@ jobs:
 
       - name: Export API KEY
         run: export API_KEY=$TEST_API_KEY
-             node deploy-script.js
